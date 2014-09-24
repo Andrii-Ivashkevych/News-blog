@@ -1,0 +1,342 @@
+body, header, main, footer,
+nav, li, ul, img, h1, h2,
+h3, h4, h5, h6  {
+    margin: 0;
+    padding: 0;
+}
+header, footer  {
+    display: block;
+}
+.wrapper  {
+    margin: 0 auto;
+    width: 775px;
+    background: #0e1213;
+}
+.base  {
+    width: 690px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background: #000000;
+}
+header  {
+    background: #2c2928;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.photo  {
+    position: relative;
+    clear: both;
+    width: 650px;
+    height: 328px;
+    background: url("../img/Elena_Zakharova.png");
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.logotype  {
+    position: absolute;
+    bottom: -50px;
+    left: 150px;
+    font-family: Helvetica, Verdana, san-serif;
+    color: #ffffff;
+    font-size: 45px;
+    text-shadow: -.5px -.5px 11px rgba(255, 255, 255, .75);
+    letter-spacing: 5px;
+}
+ul, li  {
+    display: inline;
+}
+address  {
+    text-align: center;
+    padding-top: 10px;
+}
+nav  {
+    text-align: center;
+}
+.content  {
+    width: 390px;
+    height: 360px;
+    margin: 0 0 0 20px;
+    background: #2c2928;
+    float: left;
+}
+.story  {
+    width: 390px;
+    padding-bottom: 25px;
+}
+h2  {
+    color: #af9e91;
+    font-size: 18px;
+    padding-top: 14px;
+    margin-left: 16px;
+}
+h3  {
+    clear: both;
+    color: #d89f75;
+    font-size: 10px;
+    padding-top: 27px;
+    margin-left: 29px;
+}
+h6  {
+    color: #6a6968;
+    margin-left: 16px;
+}
+.news_icon a  {
+    font-size: 7px;
+}
+.text_article  {
+    color: #ffffff;
+}
+.text  {
+    margin-left: 15px;
+    color: #a2a2a2;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 9px;
+    padding: 3px 0 5px 115px;
+    letter-spacing: 1px;
+}
+.news_text  {
+    width: 135px;
+    color: #ffffff;
+    text-align: left;
+    margin-top: 19px;
+    margin-right: 70px;
+    line-height: 12px;
+    float: right;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 7px;
+    text-decoration: underline;
+}
+.news_text_star  {
+    width: 135px;
+    color: #ffffff;
+    text-align: left;
+    margin-top: 3px;
+    margin-right: 70px;
+    line-height: 10px;
+    float: right;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 7px;
+    text-decoration: underline;
+}
+.head  {
+    width: 650px;
+    height: 73px;
+    margin: 0;
+    padding: 0;
+}
+.head:after  {
+    clear: both;
+    display: table;
+    content: "";
+}
+.head__main  {
+    float: left;
+    width: 113px;
+    height: 43.5px;
+    text-align: center;
+    padding-top: 29.5px;
+    line-height: 14px;
+    border-right: 1px solid #2c2928;
+    box-shadow: inset -26px -1px 69px 15px rgba(255,255,255,0.45);
+}
+.head__about  {
+    float: left;
+    width: 108px;
+    height: 43.5px;
+    text-align: center;
+    padding-top: 29.5px;
+    line-height: 14px;
+    border-right: 1px solid #2c2928;
+    box-shadow: inset -26px -1px 69px -15px rgba(255,255,255,0.45);
+}
+.head__cinema  {
+    float: left;
+    width: 128px;
+    height: 43.5px;
+    text-align: center;
+    padding-top: 29.5px;
+    line-height: 14px;
+    border-right: 1px solid #2c2928;
+    box-shadow: inset -26px -1px 69px -15px rgba(255,255,255,0.45);
+}
+.head__press  {
+    float: left;
+    width: 153px;
+    height: 43.5px;
+    text-align: center;
+    padding-top: 29.5px;
+    line-height: 14px;
+    border-right: 1px solid #2c2928;
+    box-shadow: inset -26px -1px 69px -15px rgba(255,255,255,0.45);
+}
+.head__contact  {
+    float: left;
+    width: 143px;
+    height: 43.5px;
+    text-align: center;
+    padding-top: 29.5px;
+    line-height: 14px;
+}
+.head__main a, .head__about a, .head__cinema a, .head__press a, .head__contact a  {
+    display: block;
+    height: 100%;
+}
+.head__color  {
+    background: #2c2928;
+    box-shadow: 0 0 2px rgba(0,0,0,0.5);
+    /*box-shadow: 0px 0px 5px 0px rgba(186, 221, 255, 1);*/
+}
+.icons  {
+    width: 100px;
+    height: 20px;
+    margin: 11px auto 0 auto;
+    padding: 0;
+}
+.icons:after  {
+    clear: both;
+    display: table;
+    content: "";
+}
+.icons__item  {
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin: 10px;
+    text-align: center;
+    line-height: 12px;
+    font-size: 0px;
+}
+.icons__item a  {
+    display: block;
+    height: 100%;
+}
+.next  {
+    color: #869496;
+    font-size: 9px;
+    text-decoration: none;
+    margin-left: -60px;
+}
+.arrow {
+    float: left;
+    width: 12px;
+    height: 12px;
+    background-image: url("../img/arrow.png");
+    margin-left: -25px;
+}
+.intention  {
+    clear: both;
+    float: left;
+    width: 14px;
+    height: 13px;
+    margin-left: 34px;
+    margin-top: 19px;
+    margin-bottom: 19px;
+    background-image: url("../img/intention.png");
+}
+.star  {
+    clear: both;
+    width: 10px;
+    height: 10px;
+    margin-left: 34px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background-image: url("../img/star.png");
+    float: left;
+}
+i  {
+    font-style: normal;
+}
+.photo_article_first  {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-left: 19px;
+    background: url("../img/Ekaterina_Porubel.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    float: left;
+}
+.photo_article_second  {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-left: 19px;
+    background: url("../img/Ekaterina_Porubel_family.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    float: left;
+}
+.footer  {
+    clear: both;
+    background: #2c2928;
+    margin: 0 20px 0 20px;
+    width: 650px;
+    height: 36px;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 8px;
+    padding-top: 17px;
+}
+.footer a:link  {
+    color: #ffffff;
+}
+.footer a:visited  {
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer a:active  {
+    text-decoration: none;
+}
+.footer a:hover  {
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: red;
+}
+footer li  {
+    color: #ffffff;
+}
+address  {
+    color: #ffffff;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 8px;
+    font-style: normal;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited  {
+    text-decoration: none;
+    color: #af9e91;
+}
+a:active  {
+    text-decoration: none;
+}
+a:hover  {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: red;
+}
+.news  {
+    width: 260px;
+    height: 360px;
+    float: right;
+    background: #2c2928;
+    margin-right: 20px;
+}
+.andex  {
+    clear: both;
+    display: block;
+    width: 650px;
+    height: 1px;
+    margin-top: 3px;
+    margin-left: 20px;
+    padding: 0;
+    background: url("../img/andex.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
